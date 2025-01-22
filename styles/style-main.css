@@ -104,6 +104,10 @@
     color: rgb(1, 172, 253);
 }
 
+.sky-blue-bg{
+    background-color: rgb(1, 172, 253);
+}
+
 .paste{
     color: rgb(5, 212, 223);
 }
@@ -343,4 +347,72 @@
 
 .our-stories-btn{
     margin-top: 80px;
+}
+
+/* footer */
+
+.footer-brand{
+    flex-direction: column;
+    justify-content: unset;
+    align-items: flex-start;
+    gap: 35px;
+    flex: 1.5;
+}
+
+.footer-connect{
+    flex: 1;
+}
+
+.footer-about-school{
+    flex: 1;
+}
+
+.footer-about-school h1{
+    font-size: 1.5rem;
+}
+
+.footer-about-school ul{
+    list-style-type: none;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.footer-about-school ul li{
+    padding: 15px 0px;
+    font-size: 1.25rem;
+}
+
+.footer-brand > p{
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.footer-brand-logo{
+    gap: 18px;
+}
+
+.footer-brand-logo h1{
+    font-size: 3rem;
+}
+
+.footer-brand-logo img{
+    width: 100px;
+}
+
+.footer-container{
+    gap: 100px;
+    justify-content: space-between;
+    align-items: unset;
+    padding: 125px 0px 180px 0px;
+    color: white;
+}
+
+.footer-connect h1{
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+}
+
+.footer-connect img{
+    margin-right: 10px;
+    cursor: pointer;
 }

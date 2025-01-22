@@ -126,4 +126,36 @@
     margin: 0px 20px 20px 20px;
 }
 
+/* footer */
+
+.footer-container{
+    flex-direction: column;
+    padding: 70px 0px 90px 0px;
+}
+
+.footer-brand{
+    gap: 25px;
+}
+
+.footer-brand-logo h1{
+    font-size: 2.23rem;
+}
+
+.footer-brand-logo img{
+    width: 75px;
+}
+
+.footer-brand > p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer-container{
+    gap: 50px;
+}
+
+.footer-about-school ul{
+    margin-top: 25px;
+}
+
 }
