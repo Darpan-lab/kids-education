@@ -178,13 +178,11 @@
 
 /* Standard Curriculum */
 
-main{
+.standard-curriculum{
+    padding: 60px 0px;
     background-image: url("../assets/bg.png");
     background-position: center;
-}
-
-.standard-curriculum{
-    padding-top: 60px;
+    background-size: cover;
 }
 
 .standard-curriculum > h1{
@@ -255,4 +253,94 @@ main{
 .chevron{
     margin-top: 80px;
     gap: 10px;
+}
+
+.chevron > svg{
+    cursor: pointer;
+}
+
+/* our-stories */
+
+.our-stories{
+    background-image: linear-gradient(0deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding: 60px 0px;
+}
+
+.our-stories h1{
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 2.875rem;
+}
+
+.our-stories-container{
+    gap: 20px;
+}
+
+.our-stories-single-big-container{
+    background-color: white;
+    flex: 1;
+    border-radius: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.our-stories-single-big-container-content{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 40px 34px 40px;
+}
+
+.our-stories-single-big-container-content > h3{
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+.our-stories-single-big-container-content > p{
+    color: rgb(102, 102, 102);
+    font-size: 15.34px;
+    line-height: 28.76px;
+}
+
+.our-stories-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex: 1; 
+    gap: 20px;
+}
+
+.our-stories-box{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-stories-box > h3{
+    text-align: center;
+    margin: 5px 22px 30px 22px;
+    font-size: 0.95rem;
+    line-height: 2;
+}
+
+.our-stories img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.our-stories-date{
+    border-radius: 47.93px;
+    padding: 10px 20px;
+    background: rgb(60, 216, 232);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: "Raleway", serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    position: relative;
+    top: -24.5px;
+    left: 40px;
+}
+
+.our-stories-btn{
+    margin-top: 80px;
 }
