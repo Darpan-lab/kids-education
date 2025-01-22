@@ -1,0 +1,61 @@
+@media screen  and (max-width: 576px){
+
+    /* navbar and banner */
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .nav-link, .contact-btn{
+        display: none;
+    }
+
+    .nav-icon-mobile{
+        display: unset;
+    }
+
+    .nav-link-mobile{
+        list-style-type: none;
+        font-size: 1.25rem;
+        visibility: hidden;
+    }
+
+    .nav-link-mobile{
+        position: absolute;
+        right: 40px;
+        background-color: rgb(222, 245, 255);
+        padding: 15px;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+        opacity: 0%;
+    }
+
+    .nav-link-mobile li{
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .nav-icon-mobile:hover > .nav-link-mobile{
+        visibility: visible;
+        opacity: 100%;
+    }
+
+    .banner-content{
+        text-align: center;
+    }
+
+    .banner-title{
+        font-size: 2rem;
+    }
+
+    .banner-content > p{
+        font-size: 0.875rem;
+    }
+
+    .btn-main{
+        font-size: 1rem;
+    }
+}
+
+/* Standard Curriculum */
+

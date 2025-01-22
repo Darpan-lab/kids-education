@@ -1,0 +1,10 @@
+@media screen and (min-width:576px) and (max-width: 1100px){
+
+    .nav-link, .nav-bar > button{
+        display: none;
+    }
+
+    .banner-title{
+        font-size: 4.1vw;
+    }
+}
