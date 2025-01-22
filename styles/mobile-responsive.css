@@ -2,8 +2,13 @@
 
     /* navbar and banner */
 
+    header{
+        padding-bottom: 20px;
+    }
+
     .banner{
         flex-direction: column-reverse;
+        gap: 20px;
     }
 
     .nav-link, .contact-btn{
@@ -46,16 +51,49 @@
 
     .banner-title{
         font-size: 2rem;
+        line-height: 2.8rem;
     }
 
     .banner-content > p{
         font-size: 0.875rem;
+        line-height: 1.3rem;
+        margin-top: 18px 0px;
     }
 
     .btn-main{
         font-size: 1rem;
     }
-}
 
 /* Standard Curriculum */
 
+.standard-curriculum{
+    padding-top: 40px;
+}
+
+.standard-curriculum-container{
+    flex-direction: column;
+}
+
+.standard-curriculum > h1{
+    font-size: 1.625rem;
+    margin-bottom: 20px;
+}
+
+.standard-curriculum-box > h3{
+    font-size: 1.2rem;
+    margin-top: 22px;
+}
+
+.standard-curriculum-box > p{
+    line-height: 1.5;
+    margin: 22px 0px;
+    width: 193px;
+}
+
+
+
+.chevron{
+    display: none;
+}
+
+}
