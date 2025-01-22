@@ -441,6 +441,18 @@
     color: black;
 }
 
+.chevron-right > rect:hover{
+    fill: rgb(0, 0, 0);
+}
+
+.chevron-left > rect:hover{
+    fill: rgb(0, 0, 0);
+}
+
+.chevron-right > rect, .chevron-left > rect{
+    transition: 0.3s;
+}
+
 marquee{
     font-size: 24px;
     background-color: rgb(222, 245, 255);
