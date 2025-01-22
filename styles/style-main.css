@@ -408,6 +408,7 @@
     align-items: unset;
     padding: 125px 0px 180px 0px;
     color: white;
+    margin-top: -4px;
 }
 
 .footer-connect h1{
@@ -438,4 +439,12 @@
 
 .footer-about-school ul li:hover{
     color: black;
+}
+
+marquee{
+    font-size: 24px;
+    background-color: rgb(222, 245, 255);
+    padding: 10px 0px;
+    margin: 0px;
+    overflow: hidden;
 }
